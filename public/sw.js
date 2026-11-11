@@ -1,6 +1,6 @@
 // Offline-first: alles beim Installieren in den Cache, danach aus dem Cache spielen.
 // Bei jeder inhaltlichen Änderung VERSION hochzählen, damit Geräte die neue Fassung holen.
-const VERSION = "wortjagd-v1";
+const VERSION = "wortjagd-v2";
 const FILES = [
   "./",
   "index.html",
