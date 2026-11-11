@@ -7,4 +7,4 @@ Wörterspiel als Offline-PWA (iPad: in Safari öffnen → Teilen → „Zum Home
 - `src-original.html` – die ursprüngliche Einzeldatei
 - `icon-src/` – Quelle des App-Icons (Headless-Chromium-Screenshot)
 
-Ausgeliefert über Vercel (`vercel.json`) auf https://wortjagd.uds.university. `Dockerfile`/`nginx.conf` sind die Alternative für Coolify.
+Ausgeliefert über Vercel (`vercel.json`): https://wortjagd-sepia.vercel.app – neu ausrollen mit `vercel deploy --prod`. `Dockerfile`/`nginx.conf` sind die Alternative für Coolify.
