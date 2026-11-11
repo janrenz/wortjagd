@@ -1,0 +1,9 @@
+<!doctype html><html><head><meta charset=utf-8><link rel=stylesheet href="fonts.css"><style>
+html,body{margin:0;width:1024px;height:1024px;background:#0C0A24;overflow:hidden}
+.b{position:absolute;inset:0;background:radial-gradient(circle at 50% 42%,#2b2163 0%,#17143C 55%,#0C0A24 100%)}
+.r{position:absolute;inset:150px;border-radius:90px;background:#221A4D;border:22px solid #F5B63F;box-shadow:0 0 0 22px #130E28}
+.dots{position:absolute;inset:150px}
+.d{position:absolute;width:44px;height:44px;border-radius:50%;background:#FFF4DE;box-shadow:0 0 30px #F5B63F}
+.w{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-family:"Alfa Slab One";font-size:470px;color:#F5B63F;text-shadow:20px 20px 0 #130E28;padding-top:20px}
+</style></head><body><div class=b></div><div class=r></div><div class=dots id=d></div><div class=w>W</div>
+<script>var d=document.getElementById('d');[[0,0],[.5,0],[1,0],[0,.5],[1,.5],[0,1],[.5,1],[1,1]].forEach(function(p){var e=document.createElement('div');e.className='d';e.style.left=(p[0]*724-22)+'px';e.style.top=(p[1]*724-22)+'px';d.appendChild(e)})</script></body></html>
